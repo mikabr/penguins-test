@@ -3,14 +3,13 @@ numerical_vars:
   - bill_depth_mm
   - flipper_length_mm
   - body_mass_g
+  - year
 
 categorical_vars:
   - species
-  - island
   - sex
-  - year
 
 defaults:
   x: bill_length_mm
-  y: bill_depth_mm
-  color: island
+  y: flipper_length_mm
+  color: sex

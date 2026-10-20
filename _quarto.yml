@@ -1,5 +1,5 @@
 project:
-  title: "Palmer Penguins"
+  title: "Penguins Test"
   type: datapage
 
 website:
@@ -10,13 +10,13 @@ format:
   datapage-html:
     theme: theme.scss
 
-execute: 
+execute:
   echo: false
   message: false
   warning: false
   error: false
 
 redivis:
-  user: datapages
-  dataset: palmerpenguins
+  user: mikabr
+  dataset: penguins_test
   table: penguins
